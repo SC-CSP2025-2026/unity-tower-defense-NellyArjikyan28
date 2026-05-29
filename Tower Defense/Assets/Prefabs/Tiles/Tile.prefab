@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5227062481471245445}
+  - component: {fileID: 3335670500469614736}
   m_Layer: 0
   m_Name: Tile
   m_TagString: Untagged
@@ -32,6 +33,25 @@ Transform:
   - {fileID: 7041662331919720446}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3335670500469614736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7639499274671332979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d45737b2a33484ee88d3fa9f4f381c46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <IsOccupied>k__BackingField: 0
+  OnCursorEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnCursorExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &7706453057741161796
 GameObject:
   m_ObjectHideFlags: 0
@@ -134,10 +154,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <OnEnter>k__BackingField:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3335670500469614736}
+        m_TargetAssemblyTypeName: TileController, Assembly-CSharp
+        m_MethodName: NotifyCursorEnter
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   <OnExit>k__BackingField:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 3335670500469614736}
+        m_TargetAssemblyTypeName: TileController, Assembly-CSharp
+        m_MethodName: NotifyCursorExit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   <OnClick>k__BackingField:
     m_PersistentCalls:
       m_Calls: []
