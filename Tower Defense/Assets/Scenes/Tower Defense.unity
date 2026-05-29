@@ -119,6 +119,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &29648243 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149824367559471921, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+  m_PrefabInstance: {fileID: 376780808}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &29958709
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2800,6 +2805,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2739015120294638369, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+      propertyPath: <Model>k__BackingField
+      value: 
+      objectReference: {fileID: 29648243}
     - target: {fileID: 8710830228182511222, guid: 523eb921781bd41be879c13143fadef2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.4315457
@@ -2968,6 +2977,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 10842560036285654, guid: f4d518a7586b24ba89b753d8256f17cb, type: 3}
   m_PrefabInstance: {fileID: 391984983}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &395787245 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149824367559471921, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+  m_PrefabInstance: {fileID: 581028849}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &404998730
 PrefabInstance:
@@ -4248,6 +4262,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2739015120294638369, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+      propertyPath: <Model>k__BackingField
+      value: 
+      objectReference: {fileID: 395787245}
     - target: {fileID: 8710830228182511222, guid: 523eb921781bd41be879c13143fadef2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.4388146
@@ -13057,6 +13075,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5227062481471245445, guid: 31ce8d08b5f3e4cdd92ffedd0f58b179, type: 3}
   m_PrefabInstance: {fileID: 1798341116}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1801490290 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5149824367559471921, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+  m_PrefabInstance: {fileID: 6053702728276829169}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1805916739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15737,6 +15760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Turret
       objectReference: {fileID: 0}
+    - target: {fileID: 2739015120294638369, guid: 523eb921781bd41be879c13143fadef2, type: 3}
+      propertyPath: <Model>k__BackingField
+      value: 
+      objectReference: {fileID: 1801490290}
     - target: {fileID: 8710830228182511222, guid: 523eb921781bd41be879c13143fadef2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.5
