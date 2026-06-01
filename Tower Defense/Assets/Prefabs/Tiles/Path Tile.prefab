@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 10842560036285654}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Path Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 2573627939834354117}
   - component: {fileID: 4004216172920294900}
   - component: {fileID: 5152138043029843332}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
