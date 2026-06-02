@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <AoE>k__BackingField: {fileID: 5053240172223784432}
-  <Model>k__BackingField: {fileID: 0}
+  <Model>k__BackingField: {fileID: 5149824367559471921}
 --- !u!114 &1848191828007941324
 MonoBehaviour:
   m_ObjectHideFlags: 0
