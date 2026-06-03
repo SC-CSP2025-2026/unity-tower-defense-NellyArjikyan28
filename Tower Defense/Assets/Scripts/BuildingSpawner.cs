@@ -1,7 +1,9 @@
 using UnityEngine;
 
-public class TurretSpawner : MonoBehaviour
+public class BuildingSpawner : MonoBehaviour
 {
+    [field: SerializeField]
+    public BuildingData Selected { get; set; }
     [field: SerializeField]
     public GameObject TargetGrid { get; private set; }
    
@@ -41,10 +43,10 @@ public class TurretSpawner : MonoBehaviour
         }
         if (CanSpawn(tileController))
         {
-            GameObject newTurret = Instantiate(TurretPrefab, Controller.transform);
+            GameObject newTurret = Instantiate(Selected.BuildingPrefab, Controller.transform);
             newTurret.transform.position = tileController.transform.position;
             tileController.IsOccupied = true;
-            Controller.Gold -= 50;
+            Controller.Gold -= Selected.Cost;
             gameObject.SetActive(false); // disable our turret spawner
         }
     }
