@@ -88,7 +88,7 @@ public class BuildingSpawner : MonoBehaviour
         }
         else
         {
-            Controller.InfoLabel.text = "50 Gold - Place Turret";
+            Controller.InfoLabel.text = $"{Selected.Cost} - Place Turret";
         }
     }
 
